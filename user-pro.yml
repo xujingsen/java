@@ -19,3 +19,7 @@ spring:
     password: admin
     publisherConfirms: true
     virtualHost: /
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9000/eureka/
